@@ -37,7 +37,7 @@ function createCells() {
   }
 }
 
-function drawCell(cell: any) :void{
+function drawCell(cell){
   ctx.beginPath();
   ctx.rect(cell.x, cell.y, width, width);
   switch (cell.value){
